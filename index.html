@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Bhargava Chinthoju">
     <title>Home | Bhargava Ch</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -46,19 +46,19 @@
                     
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#/resume/">Resume</a></li>
-                        <li class="dropdown"><a href="#">Projects <i class="fa fa-angle-down"></i></a>
+                    <ul id="main-menu" class="nav navbar-nav navbar-right">
+                        <li id="home" class="active"><a href="index.html">Home</a></li>
+                        <li id="profile"><a href="#/profile/">Profile</a></li>
+                        <li id="projects" class="dropdown"><a href="#">Projects <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="#/projects/professional/">Professional</a></li>
-                                <li><a href="#/projects/websites/">Websites</a></li>
-                                <li><a href="#/projects/mobile/">Mobile</a></li>
-                                <li><a href="#/projects/iot/">Electronics/IoT</a></li>
+                                <li id="professional"><a href="#/projects/professional/">Professional</a></li>
+                                <li id="websites"><a href="#/projects/websites/">Websites</a></li>
+                                <li id="mobile"><a href="#/projects/mobile/">Mobile</a></li>
+                                <li id="iot"><a href="#/projects/iot/">Electronics/IoT</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#/volunteer/">Volunteer</a></li>
-                        <li><a href="#/contact">Contact</a></li>
+                        <li id="achivements"><a href="#/achivements/">Achivements</a></li>
+                        <li id="contact"><a href="#/contact">Contact</a></li>
                         
                     </ul>
                 </div>
@@ -75,7 +75,7 @@
         </div>
     </header>
     <!--/#header-->
-
+    <h2 class="text-center border1">Sorry :(, The site is under construction - But, something amazing is being added!</h2>
     <section id="home-slider">
         <div class="container">
             <div class="main-slider">
@@ -87,10 +87,10 @@
                     <p>
                         <i class="fa fa-code-fork"></i>&nbsp; Along with work, I enjoy digging into new gadgets, building <a href="#/projects/websites/">websites</a> and <a href="#/projects/iot/">IoT projects</a>! 
                     </p>
-                    <p>
+                    <!-- <p>
                         <i class="fa fa-thumbs-o-up"></i>&nbsp; I also spend good time in activies related to giving <a href="#/volunteer/">back to the society</a>.
-                    </p>
-                    <a href="#/resume/" class="btn btn-common">Dive in</a>
+                    </p> -->
+                    <a href="#/profile/" class="btn btn-common">Dive in</a>
                 </div>
                 <img src="images/home/slider/slide1/house.png" class="img-responsive slider-house" alt="slider image">
                 <img src="images/home/slider/slide1/circle1.png" class="slider-circle1" alt="slider image">
@@ -105,7 +105,8 @@
         <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
     </section>
     <!--/#home-slider-->
-    <!--div class="container">
+
+    <!-- <div class="container">
         <div class="row">
             <div class="col-sm-12 overflow">
                <div class="social-icons pull-right">
@@ -119,11 +120,11 @@
                 </div> 
             </div>
          </div>
-    </div -->
+    </div> -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
