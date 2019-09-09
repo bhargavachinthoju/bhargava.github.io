@@ -1,4 +1,5 @@
 jQuery(function($) {'use strict';
+		    console.log('----->', window.location.hostname);
 	if ('chbhargava.github.io' === window.location.hostname) {
 		location.href = 'http://chbhargava.me';
 	}
