@@ -1,5 +1,8 @@
 jQuery(function($) {'use strict';
-
+	if ('chbhargava.github.io' === window.location.hostname) {
+		location.href = 'http://chbhargava.me';
+	}
+		    
 	//Responsive Nav
 	$('li.dropdown').find('.fa-angle-down').each(function(){
 		$(this).on('click', function(){
