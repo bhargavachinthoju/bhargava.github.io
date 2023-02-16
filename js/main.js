@@ -1,7 +1,3 @@
-if ('chbhargava.github.io' === window.location.hostname) {
-	location.href = 'http://chbhargava.ml';
-}
-
 jQuery(function($) {'use strict';
 		    
 	//Responsive Nav
